@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meme site</title>
+</head>
+<body>
+    <h1 >M E M E S</h1>
+    <div>
+    <p> this will refresh in 30 seconds !</p>
+    <p><img src="{{meme_pic}}" alt="img"></p>
+    <p id="P1">Current subreddit: {{subreddit}}</p>
+    </div>
+    <div>
+        <P id="P2">This Site is a Demonstration of Flask API Which use GET request to fetch the Image from https://meme-api.com/gimme Site and display it on this site</P>
+    </div>
+</body>
+<style>
+    div 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 
+{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+body
+{
+    background-color: black;
+}
+
+#P1,#P2 
+{
+    color: aliceblue;
+}
+</style>
+</html>
